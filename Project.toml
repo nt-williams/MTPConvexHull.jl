@@ -3,7 +3,19 @@ uuid = "776a4005-d15c-4ab1-8a1f-936da0224ff9"
 authors = ["Nicholas Williams"]
 version = "1.0.0-DEV"
 
+[deps]
+Convex = "f65535da-76fb-5f13-bab9-19810c17039a"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+GeometryTypes = "4d00f742-c7ba-57c2-abde-4428a4b178cb"
+Polyhedra = "67491407-f73d-577b-9b50-8179a7c68029"
+SCS = "c946c3f1-0d1f-5ce8-9dea-7daa1f7e2d13"
+
 [compat]
+Convex = "0.16.4"
+DataFrames = "1.7.0"
+GeometryTypes = "0.8.5"
+Polyhedra = "0.7.8"
+SCS = "2.0.2"
 julia = "1.6.7"
 
 [extras]
